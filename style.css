@@ -1,0 +1,146 @@
+body{
+	background-image: url(hd-wallpaper-gc4e3f132a_1920.jpg);
+	width: 100%;
+	margin-left: 0;
+
+
+}
+
+
+.sidebar{
+	display: inline-block;
+	position: fixed;
+	margin-top: 80px;
+}
+
+.list{
+	display: inline-block;
+	margin-left: 0;
+	width: 100px;
+	height: 300px;
+	background: linear-gradient(white,black);
+	border-top-right-radius: 10px ;
+	border-bottom-right-radius: 3px;
+}
+
+.list img{
+	display: flex;
+	width: 50px;
+	margin-top: 40px;
+	margin-left: 25px;
+	border: 2px dotted white;
+	border-radius: 25px;	
+}
+
+.list img:hover{
+	opacity: 0.7;
+}
+
+.list img:active{
+	background-color: yellow;
+}
+.header{
+	display: flex;
+	height: 40px;
+	padding-top: 40px;
+	align-items: center;
+}
+
+.header img{
+	width: 100px;
+	margin-left: 40px;
+	border-radius: 50px;
+
+}
+.header img:hover{
+	box-shadow: 1px 1px 30px 5px;
+}
+.a_content{
+	margin-left: 50%;
+}
+.a_content p{
+	display: inline-block;
+	font-size: 18px;
+	font-style: italic;
+	font-weight: bold;
+}
+.header a{
+	text-decoration: none;
+	color: black;
+	margin-left: 40px;
+	border: 3px solid black;
+	padding: 3px;
+	border-top-right-radius: 6px;
+	border-bottom-left-radius: 6px;
+}
+
+.header a:hover{
+	background-color: black;
+	color: white;
+}
+
+
+
+
+.middle{
+	margin-top: 5%;
+	text-align: center;
+	margin-left: 30%;
+	width: 500px;
+	display: inline-block;
+	align-items: center;
+}
+.middle img{
+	width: 200px;
+	border-radius: 50%;
+	border: 10px solid black;
+	transition: scale 1s;
+}
+
+.middle img:hover{
+	transform: scale(1.2);
+	cursor: pointer;
+}
+
+
+.middle h1{
+	color: black;
+	font-size: 30px;
+	font-weight: bold;
+	font-style: italic;
+
+}
+
+
+
+.arrow img{
+	width: 10px;
+}
+
+
+details{
+	margin-left: 16px;
+	color: #d7b995;
+	-webkit-appearance:none;
+}
+
+.middle button{
+	background-color: black;
+	color: white;
+	display: block;
+	width: 260px;
+	height: 40px;
+	margin-top: 5px;
+	border: 1px solid white;
+	border-radius: 10px;
+	margin-left: 23%;
+	font-weight: bold;
+	cursor: pointer;
+	transition:  0.5s;
+
+}
+
+.middle button:hover{
+	background-color: white;
+	color: black;
+}
